@@ -1,0 +1,10 @@
+# Cloudflare DNS Template for YouStable Hosting
+
+@   A     103.84.XXX.XXX
+www A     103.84.XXX.XXX
+ftp A     103.84.XXX.XXX
+mail A    103.84.XXX.XXX
+cpanel A  103.84.XXX.XXX
+webmail A 103.84.XXX.XXX
+@   MX    mail.yourdomain.com (Priority 10)
+@   TXT   v=spf1 a mx ip4:103.84.XXX.XXX ~all
